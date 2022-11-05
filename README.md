@@ -34,11 +34,13 @@ Small React projects
 -   Props get passed to the component
 -   Function parameters
 -   Props are immutable
--   Props - Functional Components this.- Props - Class Components
+-   Props - Functional Components
+-   this.Props - Class Components
 
 **STATE**
 
 -   State is managed within the component
 -   Variables declared in the function body
 -   State can be changed
--   useState Hook - Functional Components this.state - Class Components
+-   useState Hook - Functional Components
+-   this.state - Class Components
