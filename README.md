@@ -44,3 +44,7 @@ Small React projects
 -   State can be changed
 -   useState Hook - Functional Components
 -   this.state - Class Components
+
+**props.children**
+props.children works just like any other prop in that it can pass any sort of data, not just the sorts that React knows how to render. For example, if you have a custom component, you could have it take a callback as props.
+Children passed to a custom component can be anything, as long as that component transforms them into something React can understand before rendering. i
