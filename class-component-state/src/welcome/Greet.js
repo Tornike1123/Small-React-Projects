@@ -1,9 +1,9 @@
 import React from "react";
 
-const Greet = (props) => {
+const Greet = ({ name, heroName }) => {
 	return (
 		<div>
-			My name is {props.name}, Super Hero {props.heroName}
+			My name is {name}, Super Hero {heroName}
 		</div>
 	);
 };
