@@ -7,9 +7,9 @@ import Welcome from "./welcome/Welcome";
 function App() {
 	return (
 		<div>
+			<Welcome name="jonh" heroName="Super Man" />
 			<Counter />
 			<Message />
-			<Welcome />
 			<Greet name="Tornike" heroName="Capitan America" />
 		</div>
 	);
