@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./welcome/Counter";
+import FunctionClick from "./welcome/FunctionClick";
 import Greet from "./welcome/Greet";
 import Message from "./welcome/Message";
 import Welcome from "./welcome/Welcome";
@@ -7,6 +8,7 @@ import Welcome from "./welcome/Welcome";
 function App() {
 	return (
 		<div>
+			<FunctionClick />
 			<Welcome name="jonh" heroName="Super Man" />
 			<Counter />
 			<Message />
