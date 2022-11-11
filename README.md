@@ -55,10 +55,23 @@ V1 - `<button onClick={this.changeText.bind(this)}>click</button>`
 V2 - `<button onClick={()=> changeText()}>click</button>`
 V3: -
 
-````constructor(props){
+```
+constructor(props){
     super(props)
 this.Changetext = this.Changetext.bind(this)
 }
 
-<button onClick={this.changeText}>click</button>```
-````
+<button onClick={this.changeText}>click</button>
+```
+
+V4: -
+
+```
+ChangeText = () => {
+    this.setState({
+        message: "Hello",
+    });
+};
+
+<button onClick={this.changeText}>click</button>
+```

@@ -8,22 +8,22 @@ class EventBind extends Component {
 			message: "Hello",
 		};
 
-		//The Best option with event binding
+		//The Best option with event binding (version1)
 		this.changeText = this.changeText.bind(this);
-		this.BackChangeText = this.BackChangeText.bind(this);
 	}
-
+	//version1
 	changeText() {
 		this.setState({
 			message: "GoodBye",
 		});
 	}
 
-	BackChangeText() {
+	//version2
+	BackChangeText = () => {
 		this.setState({
 			message: "Hello",
 		});
-	}
+	};
 
 	render() {
 		return (
