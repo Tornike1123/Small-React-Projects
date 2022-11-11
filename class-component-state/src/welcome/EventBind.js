@@ -7,11 +7,21 @@ class EventBind extends Component {
 		this.state = {
 			message: "Hello",
 		};
+
+		//The Best option with event binding
+		this.changeText = this.changeText.bind(this);
+		this.BackChangeText = this.BackChangeText.bind(this);
 	}
 
 	changeText() {
 		this.setState({
-			message: "Hi!",
+			message: "GoodBye",
+		});
+	}
+
+	BackChangeText() {
+		this.setState({
+			message: "Hello",
 		});
 	}
 
@@ -19,7 +29,8 @@ class EventBind extends Component {
 		return (
 			<div>
 				<h1>{this.state.message}</h1>
-				<button onClick={() => this.changeText()}>Click</button>
+				<button onClick={this.changeText}>Click</button>
+				<button onClick={this.BackChangeText}>Change</button>
 			</div>
 		);
 	}
