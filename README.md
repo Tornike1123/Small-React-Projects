@@ -47,4 +47,18 @@ Small React projects
 
 **props.children**
 props.children works just like any other prop in that it can pass any sort of data, not just the sorts that React knows how to render. For example, if you have a custom component, you could have it take a callback as props.
-Children passed to a custom component can be anything, as long as that component transforms them into something React can understand before rendering. i
+Children passed to a custom component can be anything, as long as that component transforms them into something React can understand before rendering.
+
+**Event Binding with "this"**
+
+V1 - `<button onClick={this.changeText.bind(this)}>click</button>`
+V2 - `<button onClick={()=> changeText()}>click</button>`
+V3: -
+
+````constructor(props){
+    super(props)
+this.Changetext = this.Changetext.bind(this)
+}
+
+<button onClick={this.changeText}>click</button>```
+````
