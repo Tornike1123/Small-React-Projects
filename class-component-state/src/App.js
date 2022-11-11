@@ -1,4 +1,5 @@
 import React from "react";
+import ParentComponent from "./ParentComponent";
 import ClassClick from "./welcome/ClassClick";
 import Counter from "./welcome/Counter";
 import EventBind from "./welcome/EventBind";
@@ -10,7 +11,8 @@ import Welcome from "./welcome/Welcome";
 function App() {
 	return (
 		<div>
-			<EventBind />
+			<ParentComponent />
+			{/* <EventBind /> */}
 			{/* <ClassClick />
 			<FunctionClick />
 			<Welcome name="jonh" heroName="Super Man" />
