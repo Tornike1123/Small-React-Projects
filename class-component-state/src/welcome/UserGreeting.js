@@ -5,16 +5,13 @@ class UserGreeting extends Component {
 		super(props);
 
 		this.state = {
-			isLoggedIn: false,
+			isLoggedIn: true,
 		};
 	}
 	render() {
-		//**Conditional Rendering - Ternary Operators
-		return this.state.isLoggedIn ? (
-			<div>Hello John</div>
-		) : (
-			<div>Hello Guest</div>
-		);
+		//**Conditional Rendering - Short circuit operator
+		//! use this approach when u want render something or nothing
+		return this.state.isLoggedIn && <div>Hello Jonh</div>;
 	}
 }
 
