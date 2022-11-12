@@ -75,3 +75,10 @@ ChangeText = () => {
 
 <button onClick={this.changeText}>click</button>
 ```
+
+###### Conditional Rendering
+
+-   if/else
+-   Element Variables
+-   Ternary conditional operator
+-   Short circuit operator
