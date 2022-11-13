@@ -16,14 +16,16 @@ function NameList() {
 			skill: "Spiderman",
 		},
 		{
-			id: 2,
+			id: 3,
 			name: "Diana",
 			age: 20,
 			skill: "Capitan America",
 		},
 	];
 
-	const personList = persons.map((pers) => <Person human={pers} />);
+	const personList = persons.map((pers) => (
+		<Person key={pers.id} human={pers} />
+	));
 	return <div>{personList}</div>;
 }
 

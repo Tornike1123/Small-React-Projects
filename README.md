@@ -82,3 +82,9 @@ ChangeText = () => {
 -   Element Variables
 -   Ternary conditional operator
 -   Short circuit operator
+
+###### Keys & Lists
+
+A "Key" is a special string attribute you need include when creating lists of elements.
+
+` key={list.id}`
