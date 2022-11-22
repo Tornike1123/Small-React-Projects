@@ -10,10 +10,12 @@ import Message from "./welcome/Message";
 import NameList from "./welcome/NameList";
 import UserGreeting from "./welcome/UserGreeting";
 import Welcome from "./welcome/Welcome";
+import Stylesheet from "./welcome/Stylesheet";
 
 function App() {
 	return (
 		<div className="center">
+			<Stylesheet primary={true} />
 			{/*<UserGreeting />
 			<ParentComponent />
 			<EventBind /> 
@@ -22,8 +24,9 @@ function App() {
 			<Welcome name="jonh" heroName="Super Man" />
 			<Counter />
 			<Message />
-			<Greet name="Tornike" heroName="Capitan America" /> */}
+			<Greet name="Tornike" heroName="Capitan America" /> 
 			<NameList />
+			*/}
 		</div>
 	);
 }

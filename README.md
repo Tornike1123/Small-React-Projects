@@ -99,3 +99,10 @@ ChangeText = () => {
 1.The items in your list do not have a unique id.
 2.The list is a static list and will not change.
 3.The list will never be reordered or filtered.
+
+###### Styling React Components
+
+-   css styles sheets
+-   inline styling
+-   css modules
+-   css and js libraries
