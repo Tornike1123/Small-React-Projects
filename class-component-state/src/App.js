@@ -11,11 +11,13 @@ import NameList from "./welcome/NameList";
 import UserGreeting from "./welcome/UserGreeting";
 import Welcome from "./welcome/Welcome";
 import Stylesheet from "./welcome/Stylesheet";
+import Inline from "./welcome/Inline";
 
 function App() {
 	return (
 		<div className="center">
 			<Stylesheet primary={true} />
+			<Inline />
 			{/*<UserGreeting />
 			<ParentComponent />
 			<EventBind /> 
