@@ -1,0 +1,39 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: grey;
+	color: white;
+	padding: 5px;
+}
+ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 50%;
+
+	list-style: none;
+	font-weight: bold;
+}
+
+li {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: crimson;
+	margin: 30px;
+	border-radius: 30px;
+}
+.content-header {
+	color: white;
+	text-transform: capitalize;
+}
