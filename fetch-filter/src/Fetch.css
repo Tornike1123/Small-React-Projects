@@ -1,0 +1,10 @@
+.fl {
+	border: 2px solid black;
+	display: flex;
+	width: fit-content;
+	height: 40px;
+	margin: auto;
+}
+.center {
+	text-align: center;
+}
