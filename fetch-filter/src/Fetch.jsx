@@ -29,7 +29,9 @@ const Fetch = () => {
 			/>
 			{filteredData.map((item) => (
 				<div>
-					<p className="fl">{item.title}</p>
+					<p className="fl" key={item.id}>
+						{item.title}
+					</p>
 					<img src={item.thumbnailUrl} alt="" />
 				</div>
 			))}
